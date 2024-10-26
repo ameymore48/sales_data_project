@@ -1,0 +1,76 @@
+2024-10-27 00:39:25,659:INFO:ETL process started
+2024-10-27 00:39:25,659:INFO:Starting data extraction
+2024-10-27 00:39:25,682:INFO:Data extraction completed
+2024-10-27 00:39:25,682:INFO:Starting data transformation
+2024-10-27 00:39:25,698:INFO:Columns after transformation: ['Date', 'Product', 'Quantity', 'Price', 'Region', 'TotalSales']
+2024-10-27 00:39:25,698:INFO:Data transformation completed
+2024-10-27 00:39:25,698:INFO:Starting data loading
+2024-10-27 00:39:25,698:INFO:Attempting to connect to the database
+2024-10-27 00:43:32,506:INFO:ETL process started
+2024-10-27 00:43:32,506:INFO:Starting data extraction
+2024-10-27 00:43:32,519:INFO:Data extraction completed
+2024-10-27 00:43:32,525:INFO:Starting data transformation
+2024-10-27 00:43:32,550:INFO:Columns after transformation: ['Date', 'Product', 'Quantity', 'Price', 'Region', 'TotalSales']
+2024-10-27 00:43:32,550:INFO:Data transformation completed
+2024-10-27 00:43:32,550:INFO:Starting data loading
+2024-10-27 00:43:32,550:INFO:Attempting to connect to the database
+2024-10-27 01:18:26,539:INFO:ETL process started
+2024-10-27 01:18:26,539:INFO:Starting data extraction
+2024-10-27 01:18:26,569:INFO:Data extraction completed
+2024-10-27 01:18:26,569:INFO:Starting data transformation
+2024-10-27 01:18:26,575:INFO:Columns after transformation: ['Date', 'Product', 'Quantity', 'Price', 'Region', 'TotalSales']
+2024-10-27 01:18:26,575:INFO:Data transformation completed
+2024-10-27 01:18:26,575:INFO:Starting data loading
+2024-10-27 01:18:26,577:INFO:Attempting to connect to the database
+2024-10-27 03:37:49,583:INFO:ETL process started
+2024-10-27 03:37:49,585:INFO:Starting data extraction
+2024-10-27 03:37:49,611:INFO:Data extraction completed
+2024-10-27 03:37:49,611:INFO:Starting data transformation
+2024-10-27 03:37:49,623:INFO:Columns after transformation: ['Date', 'Product', 'Quantity', 'Price', 'Region', 'TotalSales']
+2024-10-27 03:37:49,624:INFO:Data transformation completed
+2024-10-27 03:37:49,625:INFO:Starting data loading
+2024-10-27 03:37:49,625:INFO:Attempting to connect to the database
+2024-10-27 03:37:49,729:ERROR:An error occurred in load_data: 1049 (42000): Unknown database 'sales_db'
+2024-10-27 03:37:49,730:INFO:Starting report generation
+2024-10-27 03:37:49,741:ERROR:An error occurred in generate_report: 1049 (42000): Unknown database 'sales_db'
+2024-10-27 03:37:49,741:INFO:ETL process completed successfully
+2024-10-27 03:42:33,509:INFO:ETL process started
+2024-10-27 03:42:33,509:INFO:Starting data extraction
+2024-10-27 03:42:33,516:INFO:Data extraction completed
+2024-10-27 03:42:33,517:INFO:Starting data transformation
+2024-10-27 03:42:33,525:INFO:Columns after transformation: ['Date', 'Product', 'Quantity', 'Price', 'Region', 'TotalSales']
+2024-10-27 03:42:33,526:INFO:Data transformation completed
+2024-10-27 03:42:33,526:INFO:Starting data loading
+2024-10-27 03:42:33,526:INFO:Attempting to connect to the database
+2024-10-27 03:42:33,608:ERROR:An error occurred in load_data: 1049 (42000): Unknown database 'sales_db'
+2024-10-27 03:42:33,609:INFO:Starting report generation
+2024-10-27 03:42:33,619:ERROR:An error occurred in generate_report: 1049 (42000): Unknown database 'sales_db'
+2024-10-27 03:42:33,619:INFO:ETL process completed successfully
+2024-10-27 03:48:09,488:INFO:ETL process started
+2024-10-27 03:48:09,488:INFO:Starting data extraction
+2024-10-27 03:48:09,494:INFO:Data extraction completed
+2024-10-27 03:48:09,494:INFO:Starting data transformation
+2024-10-27 03:48:09,499:INFO:Columns after transformation: ['Date', 'Product', 'Quantity', 'Price', 'Region', 'TotalSales']
+2024-10-27 03:48:09,499:INFO:Data transformation completed
+2024-10-27 03:48:09,500:INFO:Starting data loading
+2024-10-27 03:48:09,500:INFO:Attempting to connect to the database server
+2024-10-27 03:48:09,566:INFO:Database server connection established
+2024-10-27 03:48:09,566:INFO:Creating/Using database
+2024-10-27 03:48:09,569:INFO:Database created or already exists
+2024-10-27 03:48:09,570:INFO:Database selected
+2024-10-27 03:48:09,570:INFO:Creating table if not exists
+2024-10-27 03:48:09,608:INFO:Table ensured
+2024-10-27 03:48:09,617:INFO:Inserting 1000 records into the database
+2024-10-27 03:48:09,700:INFO:Data insertion completed
+2024-10-27 03:48:09,701:INFO:Data loading completed
+2024-10-27 03:48:09,701:INFO:Starting report generation
+2024-10-27 03:48:09,714:INFO:Database connection established
+2024-10-27 03:48:09,715:INFO:Database selected
+2024-10-27 03:48:09,715:INFO:Executing total_sales_query
+2024-10-27 03:48:09,721:INFO:Query returned 4 rows
+2024-10-27 03:48:09,722:INFO:Saving product_sales_report.csv
+2024-10-27 03:48:09,728:INFO:CSV report saved
+2024-10-27 03:48:09,728:INFO:Generating PDF report
+2024-10-27 03:48:09,832:INFO:PDF report saved
+2024-10-27 03:48:09,832:INFO:Report generation completed
+2024-10-27 03:48:09,832:INFO:ETL process completed successfully
